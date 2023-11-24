@@ -25,7 +25,7 @@ export default function Home() {
       <div id="oqSolucao">
         <h1>Qual é a nossa solução?</h1>
         <p id="solucaoTxt">
-        MediAler: O assistente inteligente para seu 
+        MediAlert: O assistente inteligente para seu 
         tratamento médico, simplificando lembretes de 
         medicamentos e mantendo cuidadores atualizados. 
         Prático, eficiente e confiável.
