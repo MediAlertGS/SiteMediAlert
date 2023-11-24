@@ -1,0 +1,89 @@
+:root {
+  --font-family: Arial, Helvetica, sans-serif;
+  --font-weight: bold;
+}
+
+header {
+  background-color: none;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: var(--font-family);
+}
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul li {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+}
+header ul li:first-child {
+  margin-right: 0;
+}
+header ul #logo {
+  font-size: 34px;
+}
+header ul #bv {
+  text-align: justify;
+  margin-left: 20vw;
+}
+header ul #logoutBtn {
+  width: 7vw; /* Ocupa 100% da largura do container */
+  height: 3vh;
+  background-color: #3d50cc;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 1;
+}
+@media screen and (max-width: 1000px) {
+  header ul li:last-child {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: 14px;
+  }
+  header ul #bv {
+    height: 20vh;
+    width: 20vw;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1000px) and (max-width: 600px) {
+  header ul li:last-child {
+    margin-left: 30vw;
+    margin-right: -30vw;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1000px) and (max-width: 500px) {
+  header ul li:last-child {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 1000px) and (max-width: 440px) {
+  header ul li:last-child {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 1000px) and (max-width: 388px) {
+  header ul li:last-child {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 1000px) and (max-width: 344px) {
+  header ul li:last-child {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 1000px) and (max-width: 290px) {
+  header ul li:last-child {
+    font-size: 6px;
+  }
+}/*# sourceMappingURL=cabecalho.css.map */

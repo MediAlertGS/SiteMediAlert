@@ -1,0 +1,121 @@
+// cabecalho.scss
+
+:root {
+    --font-family: Arial, Helvetica, sans-serif;
+    --font-weight: bold;
+}
+
+header {
+    background-color: none;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: var(--font-family);
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        li {
+            font-family: var(--font-family);
+            font-weight: var(--font-weight);
+        }
+
+        li:first-child {
+            margin-right: 0; // Remove a margem do primeiro item
+        }
+
+        #logo {
+            font-size: 34px; // Tamanho do logotipo
+        }
+     
+      #bv{
+        text-align: justify;
+        margin-left: 20vw;
+      }
+
+      #logoutBtn{
+        width: 7vw; /* Ocupa 100% da largura do container */
+        height: 3vh;
+        background-color: #3d50cc;
+        color: #ffffff;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        margin-top: 0;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        z-index: 1;
+      }
+    }
+
+    @media screen and (max-width: 1000px) {
+        ul {
+            li:last-child {
+                margin-left: 10vw;
+                margin-right: 10vw;
+                font-size: 14px; // Ajuste para telas entre 601px e 600px
+            }
+        
+        #bv{
+            height: 20vh;
+            width: 20vw;
+            font-size: 14px;
+        }
+    }
+        
+
+    @media screen and (max-width: 600px) {
+        ul {
+            li:last-child {
+                margin-left: 30vw;
+                margin-right: -30vw;
+                font-size: 12px; // Ajuste para telas entre 601px e 600px
+            }
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        ul {
+            li:last-child {
+                font-size: 10px; // Ajuste para telas entre 500px e 441px
+            }
+        }
+    }
+
+    @media screen and (max-width: 440px) {
+        ul {
+            li:last-child {
+                font-size: 8px; // Ajuste para telas entre 440px e 389px
+            }
+        }
+    }
+
+    @media screen and (max-width: 388px) {
+        ul {
+            li:last-child {
+                font-size: 8px; // Ajuste para telas entre 388px e 345px
+            }
+        }
+    }
+
+    @media screen and (max-width: 344px) {
+        ul {
+            li:last-child {
+                font-size: 8px; // Ajuste para telas entre 344px e 291px
+            }
+        }
+    }
+
+    @media screen and (max-width: 290px) {
+        ul {
+            li:last-child {
+                font-size: 6px; // Ajuste para telas menores ou iguais a 290px
+            }
+        }
+    }
+}
+
+}
