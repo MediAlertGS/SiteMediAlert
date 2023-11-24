@@ -14,7 +14,7 @@ function App() {
     <Outlet id="corpo" />
     <Rodape id="ropade" />
     </>
-  
+  )
 }
 
 export default App
