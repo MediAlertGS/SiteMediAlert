@@ -6,7 +6,7 @@ import './AppCss/App.css'
 import Cabecalho from './components/Cabecalho';
 import Rodape from './components/Rodape';
 
-function App() 
+function App() {
  
   return (
     <>
